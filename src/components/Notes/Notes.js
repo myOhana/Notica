@@ -139,13 +139,6 @@ class Notes extends Component {
 
                     <Button
                       variant="contained"
-                      href="/tasks"
-                      style={{ position: "fixed", right: "120px" }}
-                    >
-                      Go To Tasks List
-                    </Button>
-                    <Button
-                      variant="contained"
                       onClick={this.logOut}
                       style={{ position: "fixed", right: "12px" }}
                     >
