@@ -1,8 +1,8 @@
 {
-  "name": "tapnotes",
+  "homepage": "https://myOhana.github.io/Notica",
+  "name": "notica",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myOhana.github.io/Notica",
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@material-ui/icons": "^4.9.1",
