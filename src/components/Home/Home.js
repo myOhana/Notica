@@ -30,9 +30,9 @@ class Home extends Component {
       <div className="Home">
         <Grid container spacing={0}>
           <Grid item xs={12}>
-            <AppBar position="static">
-              <Toolbar>
-                <h1>Notes App</h1>
+            <AppBar className='appbar' position="static">
+              <Toolbar className='appbar'>
+                <h1>Notica</h1>
                 <AccountCircle
                   style={{ position: "absolute", right: "30px" }}
                   onClick={ this.signIn }
@@ -44,7 +44,7 @@ class Home extends Component {
           <br />
           <br />
           <Grid item xs={12} className="Screenshot" style={{ margin: "20px" }}>
-            <p id="desc">Our notes app!</p>
+            <p id="desc">Notica, take notes on the fly</p>
             <img src={screenshot} id="screenshot" alt="screenshot" />
           </Grid>
         </Grid>

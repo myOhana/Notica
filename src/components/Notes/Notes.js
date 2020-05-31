@@ -3,8 +3,9 @@ import NotesList from "../NotesList/NotesList";
 import Grid from "@material-ui/core/Grid";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Button from "@material-ui/core/Button";
-import AddIcon from "@material-ui/icons/Add";
+// import Button from "@material-ui/core/Button";
+import { Button, Icon } from "semantic-ui-react";
+// import AddIcon from "@material-ui/icons/Add";
 import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
@@ -14,7 +15,12 @@ import Slide from "@material-ui/core/Slide";
 import TextField from "@material-ui/core/TextField";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import { addToDB, removeFromDB, logOut,fetchFromDB } from "../../firebase/firebase";
+import {
+  addToDB,
+  removeFromDB,
+  logOut,
+  fetchFromDB,
+} from "../../firebase/firebase";
 
 function Transition(props) {
   return <Slide direction="up" {...props} />;
@@ -107,14 +113,13 @@ class Notes extends Component {
     logOut();
     this.props.history.push("/");
   };
-componentWillMount() {
-   fetchFromDB()
-     .then(notes => {
-       this.setState({
-         notes: notes,
-       });
-     })
-    }
+  componentWillMount() {
+    fetchFromDB().then((notes) => {
+      this.setState({
+        notes: notes,
+      });
+    });
+  }
   render() {
     const { classes } = this.props;
     const AddButtonStyle = {
@@ -129,8 +134,16 @@ componentWillMount() {
             <Grid container spacing={0}>
               <Grid item xs={12} className="NavBar">
                 <AppBar className="AppBar" position="fixed">
-                  <Toolbar>
+                  <Toolbar className='appbar'>
                     <h1>My Notes</h1>
+
+                    <Button
+                      variant="contained"
+                      href="/tasks"
+                      style={{ position: "fixed", right: "120px" }}
+                    >
+                      Go To Tasks List
+                    </Button>
                     <Button
                       variant="contained"
                       onClick={this.logOut}
@@ -158,14 +171,16 @@ componentWillMount() {
               </Grid>
             </Grid>
             <Button
-              className="AddButton"
+              basic
+              animated="vertical"
               onClick={this.handleClickOpen}
               style={AddButtonStyle}
-              variant="fab"
-              color="primary"
               aria-label="Add"
             >
-              <AddIcon />
+              <Button.Content hidden> Add </Button.Content>
+              <Button.Content visible>
+                <Icon name="add" />
+              </Button.Content>
             </Button>
             <Dialog
               open={this.state.open}
@@ -201,10 +216,10 @@ componentWillMount() {
                 </DialogContentText>
               </DialogContent>
               <DialogActions>
-                <Button onClick={this.handleClose} color="secondary">
+                <Button onClick={this.handleClose} basic negative>
                   Cancel
                 </Button>
-                <Button onClick={this.addNote} color="primary">
+                <Button onClick={this.addNote} basic positive>
                   Add
                 </Button>
               </DialogActions>

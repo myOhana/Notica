@@ -1,16 +1,16 @@
-.Note {
+.note {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
  }
- .NotePaper {
+ .paper {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     min-height: 100px;
  }
- .NotePaper:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ .paper:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
  }
- #title {
+#title {
     padding: 30px 20px 0px 30px;
     font-weight: bold;
     font-size: 30px;
@@ -26,5 +26,6 @@
  #delete {
     position: fixed;
     right: 100px;
-    padding-top: 12px;
+    /* padding-top: 12px; */
+
  }

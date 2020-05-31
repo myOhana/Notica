@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 import Notes from "./components/Notes/Notes";
+// import ContainerTask from "./components/Tasks/ContainerTask";
 import Home from "./components/Home/Home";
+
 
 const App = () => (
   <Router>
@@ -15,3 +17,5 @@ const App = () => (
 );
 
 export default App;
+
+// {      <Route exact path="/tasks" component={ContainerTask} />}
