@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Notica/static/css/main.5ec5c1da.chunk.css",
+    "main.js": "/Notica/static/js/main.4ec831f4.chunk.js",
+    "main.js.map": "/Notica/static/js/main.4ec831f4.chunk.js.map",
+    "runtime-main.js": "/Notica/static/js/runtime-main.61e5feaf.js",
+    "runtime-main.js.map": "/Notica/static/js/runtime-main.61e5feaf.js.map",
+    "static/js/2.c06bb36e.chunk.js": "/Notica/static/js/2.c06bb36e.chunk.js",
+    "static/js/2.c06bb36e.chunk.js.map": "/Notica/static/js/2.c06bb36e.chunk.js.map",
+    "index.html": "/Notica/index.html",
+    "precache-manifest.3df6769ce31833efd39978e76d2e4450.js": "/Notica/precache-manifest.3df6769ce31833efd39978e76d2e4450.js",
+    "service-worker.js": "/Notica/service-worker.js",
+    "static/css/main.5ec5c1da.chunk.css.map": "/Notica/static/css/main.5ec5c1da.chunk.css.map",
+    "static/js/2.c06bb36e.chunk.js.LICENSE.txt": "/Notica/static/js/2.c06bb36e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61e5feaf.js",
+    "static/js/2.c06bb36e.chunk.js",
+    "static/css/main.5ec5c1da.chunk.css",
+    "static/js/main.4ec831f4.chunk.js"
+  ]
+}
