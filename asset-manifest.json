@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Notica/static/css/main.5ec5c1da.chunk.css",
-    "main.js": "/Notica/static/js/main.429fde08.chunk.js",
-    "main.js.map": "/Notica/static/js/main.429fde08.chunk.js.map",
-    "runtime-main.js": "/Notica/static/js/runtime-main.ef98c68a.js",
-    "runtime-main.js.map": "/Notica/static/js/runtime-main.ef98c68a.js.map",
-    "static/js/2.1d853b92.chunk.js": "/Notica/static/js/2.1d853b92.chunk.js",
-    "static/js/2.1d853b92.chunk.js.map": "/Notica/static/js/2.1d853b92.chunk.js.map",
+    "main.js": "/Notica/static/js/main.a7621cf0.chunk.js",
+    "main.js.map": "/Notica/static/js/main.a7621cf0.chunk.js.map",
+    "runtime-main.js": "/Notica/static/js/runtime-main.61e5feaf.js",
+    "runtime-main.js.map": "/Notica/static/js/runtime-main.61e5feaf.js.map",
+    "static/js/2.637e8357.chunk.js": "/Notica/static/js/2.637e8357.chunk.js",
+    "static/js/2.637e8357.chunk.js.map": "/Notica/static/js/2.637e8357.chunk.js.map",
     "index.html": "/Notica/index.html",
-    "precache-manifest.065b7e280156ac90649668a0fa49ebb7.js": "/Notica/precache-manifest.065b7e280156ac90649668a0fa49ebb7.js",
+    "precache-manifest.4f87aed5a0243c1d5d573ec6aaf2bdbf.js": "/Notica/precache-manifest.4f87aed5a0243c1d5d573ec6aaf2bdbf.js",
     "service-worker.js": "/Notica/service-worker.js",
     "static/css/main.5ec5c1da.chunk.css.map": "/Notica/static/css/main.5ec5c1da.chunk.css.map",
-    "static/js/2.1d853b92.chunk.js.LICENSE.txt": "/Notica/static/js/2.1d853b92.chunk.js.LICENSE.txt"
+    "static/js/2.637e8357.chunk.js.LICENSE.txt": "/Notica/static/js/2.637e8357.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef98c68a.js",
-    "static/js/2.1d853b92.chunk.js",
+    "static/js/runtime-main.61e5feaf.js",
+    "static/js/2.637e8357.chunk.js",
     "static/css/main.5ec5c1da.chunk.css",
-    "static/js/main.429fde08.chunk.js"
+    "static/js/main.a7621cf0.chunk.js"
   ]
 }
